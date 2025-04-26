@@ -12,11 +12,11 @@ export default function Footer() {
             <Link href="/">
               <div>
                 <Image 
-                  src="/images/logo-white.png" 
+                  src="/images/logo/logo.png" 
                   alt="Ellora Sanat Evi Logo" 
                   width={150} 
                   height={50} 
-                  className="h-12 w-auto mb-4" 
+                  className="h-12 w-auto mb-4 brightness-0 invert" 
                 />
               </div>
             </Link>

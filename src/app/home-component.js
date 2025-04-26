@@ -32,7 +32,7 @@ export default function HomeComponent() {
             <div className="order-1 md:order-2">
               <div className="relative w-full h-80 md:h-96 lg:h-[500px] rounded-md overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/hero.jpg" 
+                  src="/images/genel/about.jpg" 
                   alt="Ellora Sanat Evi" 
                   fill
                   style={{objectFit: "cover"}}

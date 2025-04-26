@@ -19,7 +19,7 @@ export default function Navbar() {
             <Link href="/">
               <div className="flex items-center">
                 <Image 
-                  src="/images/logo.png" 
+                  src="/images/logo/logo.png" 
                   alt="Ellora Sanat Evi Logo" 
                   width={150} 
                   height={50} 

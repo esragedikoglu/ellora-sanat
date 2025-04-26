@@ -169,7 +169,7 @@ export default function HomeComponent() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="relative h-72 md:h-96 rounded-md overflow-hidden">
                 <Image 
-                  src="/images/sanat-dallari/seramik.webp.jpg"
+                  src="/images/workshop/workshop-1.webp.jpg"
                   alt="Workshop"
                   fill
                   style={{objectFit: "cover"}}
@@ -236,7 +236,7 @@ export default function HomeComponent() {
               </div>
               <div className="relative h-72 md:h-96 rounded-md overflow-hidden">
                 <Image 
-                  src="/images/sanat-dallari/punch-nakisi.webp.jpg"
+                  src="/images/workshop/ozel-ders.webp.jpg"
                   alt="Dükkanımız"
                   fill
                   style={{objectFit: "cover"}}
@@ -269,7 +269,7 @@ export default function HomeComponent() {
                 className="relative block h-48 md:h-64 rounded-md overflow-hidden group"
               >
                 <Image 
-                  src={`/images/sanat-dallari/${item === 1 ? 'seramik' : item === 2 ? 'punch-nakisi' : item === 3 ? 'mozaik' : 'ahsap-boyama'}.webp.jpg`}
+                  src={`/images/instagram/insta-${item}.webp.jpg`}
                   alt={`Instagram ${item}`}
                   fill
                   style={{objectFit: "cover"}}

@@ -61,7 +61,7 @@ export default function HomeComponent() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
                 <div className="relative h-48 overflow-hidden">
                   <Image 
-                    src="/images/seramik.jpg"
+                    src="/images/sanat-dallari/seramik.webp.jpg"
                     alt="Seramik"
                     fill
                     style={{objectFit: "cover"}}
@@ -79,7 +79,7 @@ export default function HomeComponent() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
                 <div className="relative h-48 overflow-hidden">
                   <Image 
-                    src="/images/punch-nakisi.jpg"
+                    src="/images/sanat-dallari/punch-nakisi.webp.jpg"
                     alt="Punch Nakışı"
                     fill
                     style={{objectFit: "cover"}}
@@ -97,7 +97,7 @@ export default function HomeComponent() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
                 <div className="relative h-48 overflow-hidden">
                   <Image 
-                    src="/images/bambu-sepet.jpg"
+                    src="/images/sanat-dallari/bambu-sepet.webp.jpg"
                     alt="Bambu Sepet Örgüsü"
                     fill
                     style={{objectFit: "cover"}}
@@ -115,7 +115,7 @@ export default function HomeComponent() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
                 <div className="relative h-48 overflow-hidden">
                   <Image 
-                    src="/images/ahsap-boyama.jpg"
+                    src="/images/sanat-dallari/ahsap-boyama.webp.jpg"
                     alt="Dekoratif Ahşap Boyama"
                     fill
                     style={{objectFit: "cover"}}
@@ -133,7 +133,7 @@ export default function HomeComponent() {
               <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
                 <div className="relative h-48 overflow-hidden">
                   <Image 
-                    src="/images/mozaik.jpg"
+                    src="/images/sanat-dallari/mozaik.webp.jpg"
                     alt="Mozaik"
                     fill
                     style={{objectFit: "cover"}}
@@ -169,7 +169,7 @@ export default function HomeComponent() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="relative h-72 md:h-96 rounded-md overflow-hidden">
                 <Image 
-                  src="/images/workshop.jpg"
+                  src="/images/sanat-dallari/seramik.webp.jpg"
                   alt="Workshop"
                   fill
                   style={{objectFit: "cover"}}
@@ -236,7 +236,7 @@ export default function HomeComponent() {
               </div>
               <div className="relative h-72 md:h-96 rounded-md overflow-hidden">
                 <Image 
-                  src="/images/dukkan.jpg"
+                  src="/images/sanat-dallari/punch-nakisi.webp.jpg"
                   alt="Dükkanımız"
                   fill
                   style={{objectFit: "cover"}}
@@ -269,7 +269,7 @@ export default function HomeComponent() {
                 className="relative block h-48 md:h-64 rounded-md overflow-hidden group"
               >
                 <Image 
-                  src={`/images/instagram-${item}.jpg`}
+                  src={`/images/sanat-dallari/${item === 1 ? 'seramik' : item === 2 ? 'punch-nakisi' : item === 3 ? 'mozaik' : 'ahsap-boyama'}.webp.jpg`}
                   alt={`Instagram ${item}`}
                   fill
                   style={{objectFit: "cover"}}

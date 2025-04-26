@@ -236,7 +236,7 @@ export default function HomeComponent() {
               </div>
               <div className="relative h-72 md:h-96 rounded-md overflow-hidden">
                 <Image 
-                  src="/images/workshop/ozel-ders.webp.jpg"
+                  src="/images/workshop/ozel-ders.webp.png"
                   alt="Dükkanımız"
                   fill
                   style={{objectFit: "cover"}}

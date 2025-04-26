@@ -14,9 +14,9 @@ export default function Footer() {
                 <Image 
                   src="/images/logo/logo.png" 
                   alt="Ellora Sanat Evi Logo" 
-                  width={150} 
-                  height={50} 
-                  className="h-12 w-auto mb-4 brightness-0 invert" 
+                  width={300} 
+                  height={100} 
+                  className="h-24 w-auto mb-4 brightness-0 invert" 
                 />
               </div>
             </Link>

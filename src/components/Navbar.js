@@ -21,9 +21,9 @@ export default function Navbar() {
                 <Image 
                   src="/images/logo/logo.png" 
                   alt="Ellora Sanat Evi Logo" 
-                  width={150} 
-                  height={50} 
-                  className="h-12 w-auto" 
+                  width={300} 
+                  height={100} 
+                  className="h-24 w-auto" 
                 />
               </div>
             </Link>
